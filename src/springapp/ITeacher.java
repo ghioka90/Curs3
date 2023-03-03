@@ -1,7 +1,8 @@
-package com.devmind.springapp;
+package springapp;
 
 public interface ITeacher {
 
     String getHomework();
+    String getWisdom();
 
 }

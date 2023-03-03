@@ -1,4 +1,4 @@
-package tema.curs3;
+package curs3;
 
 public class Dog implements IAnimal{
 
@@ -12,4 +12,5 @@ public class Dog implements IAnimal{
     public Dog(String animalName) {
         this.animalName = animalName;
     }
+
 }

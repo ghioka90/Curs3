@@ -7,22 +7,13 @@
     http://www.springframework.org/schema/aop
     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
 <!--    <aop:aspectj-autoproxy/>-->
-
     <bean id="myTeacher"
-          class="com.devmind.springapp.JavaTeacher">
+          class="springapp.JavaTeacher">
+        <constructor-arg ref="myWisdomService" />
+    </bean>
+    <bean id="myWisdomService"
+          class="springapp.WisdomWordsService">
     </bean>
 
-    <bean id="historyTeacher"
-          class="com.devmind.springapp.HistoryTeacher">
-    </bean>
 
-    <bean id="mathTeacher"
-          class="com.devmind.springapp.MathTeacher">
-
-    </bean>
-
-    <bean id="javaTeacher"
-          class="com.devmind.springapp.JavaTeacher">
-
-    </bean>
 </beans>

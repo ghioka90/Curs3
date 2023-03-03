@@ -4,23 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="myDog"
-          class= "tema.curs3.Dog">
+          class= "curs3.Dog">
     </bean>
+
+<!--  3. Spring containerul nu poate instantia clasa Dog deoarece nu avem un contrustor default,
+    pentru a putea a scapa de aceasta eroare trebuie sa implementam Dependency Injection-->
+
 
     <bean id="myCat"
-          class="tema.curs3.Cat">
+          class="curs3.Cat">
     </bean>
-
-    <bean id="myMouse"
-          class="tema.curs3.Mouse">
-    </bean>
-
-    <bean id="constrDog"
-          class="tema.curs3.Dog">
-
-    </bean>
-
-
 
 
 </beans>

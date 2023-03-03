@@ -1,4 +1,4 @@
-package tema.curs3;
+package curs3;
 
 public class Mouse implements IAnimal {
    @Override
