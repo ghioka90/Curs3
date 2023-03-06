@@ -1,4 +1,4 @@
-package curs3;
+package temaCurs3;
 
 public class Cat implements IAnimal{
    @Override

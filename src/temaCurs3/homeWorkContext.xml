@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="myDog"
-          class= "curs3.Dog">
+          class= "temaCurs3.Dog">
     </bean>
 
 <!--  3. Spring containerul nu poate instantia clasa Dog deoarece nu avem un contrustor default,
@@ -12,7 +12,7 @@
 
 
     <bean id="myCat"
-          class="curs3.Cat">
+          class="temaCurs3.Cat">
     </bean>
 
 
